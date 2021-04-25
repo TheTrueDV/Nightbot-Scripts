@@ -8,5 +8,5 @@ switch (q.toLowerCase()) {
         response = 'Aria is tending to Luna\'s needs. Please wait for a few minutes :D';
         break;    
     default:
-        response = 'Did you forget to filter? Try !distrupt mic Valid filters: ' + disruptionList.join(", ");
+        response = 'Did you forget to filter? Try !distruption mic Valid filters: ' + disruptionList.join(", ");
 }
