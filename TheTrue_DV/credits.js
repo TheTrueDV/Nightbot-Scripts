@@ -11,5 +11,5 @@ switch (q.toLowerCase()) {
         response = 'No filter selected.';
         break;
     default:
-        response = 'Did you forget to filter? Try !credit Commands! Valid filters: ' + creditList.join(", ").toLowerCase();
+        response = 'Did you forget to filter? Try !credit Commands! Valid filters: ' + creditList.join(", ");
 }
