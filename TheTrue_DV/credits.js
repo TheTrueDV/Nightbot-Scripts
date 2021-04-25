@@ -6,10 +6,7 @@ switch (q.toLowerCase()) {
         break;
     case 'commands':
         response = 'Check out the nerdy True at https://twitter.com/TheTrue_DV';
-        break;
-    case '':
-        response = 'No filter selected.';
-        break;
+        break;    
     default:
         response = 'Did you forget to filter? Try !credit Commands! Valid filters: ' + creditList.join(", ");
 }
