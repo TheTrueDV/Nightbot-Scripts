@@ -1,6 +1,6 @@
 var response = false;
 var creditList = ['Yeti', 'Commands'];
-switch ('$(query)'.toString().toLowerCase()) {
+switch ('q'.toString().toLowerCase()) {
     case 'yeti':
         response = 'Check out the adorable Kopi at https://twitter.com/Kopintea';
         break;
