@@ -2,11 +2,11 @@ var response = false;
 var micList = ['3dio', 'zoom', 'yeti'];
 switch (q.toLowerCase()) {
     case '3dio':
-        response = 'Aria is currently using her 3DIO. You can buy one here: +'
+        response = 'Aria is currently using her 3DIO. You can buy one here: '+
         'https://3diosound.com/products/free-space-binaural-microphone';
         break;
     case 'yeti':
-        response = 'Aria is currently using her Yeti, a mic from Bluemic. You can buy one here: +'
+        response = 'Aria is currently using her Yeti, a mic from Bluemic. You can buy one here: '+
         'https://www.bluemic.com/en-gb/products/yeti/';
         break;
     case 'zoom':
