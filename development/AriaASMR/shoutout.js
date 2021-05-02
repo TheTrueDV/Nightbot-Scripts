@@ -35,5 +35,5 @@ switch (q.toLowerCase()) {
         response = 'Vtuber Talk interviews Vtubers every week! He\'s super excited to be talking with Aria tonight! <3 Check them out  @ http://twitch.tv/VtuberTalk + Check out his twitter to find her other socials: www.twitch.tv/lemonleaf';
         break;
     default:
-        response = 'Please go check out twitch.tv/'+tu+'! They were last streaming '+t+'! ♡';
+        response = 'Please go check out twitch.tv/'+tu+'! They were last streaming '+g+'! ♡';
 }
