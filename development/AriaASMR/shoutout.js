@@ -1,5 +1,5 @@
 var response = false;
-var micList = ['vivi', 'aru', 'yeti'];
+var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk'];
 switch (q.toLowerCase()) {
     case 'sero':
         response = 'the OG wife, the former IRL roommate, the one who dragged me into virtual hell. Give her all the love @ www.twitch.tv/serotina. Check out her carrd to find her other socials: serotina.carrd.co';
@@ -29,10 +29,13 @@ switch (q.toLowerCase()) {
         response = 'Check out Bubbly @ www.twitch.tv/bubblybunnana + Check out her twitter to find her other socials: twitter.com/BubblyBunnana';
         break;
     case 'lemonleaf':
-        response = 'Check out Bubbly @ www.twitch.tv/lemonleaf + Check out her twiiter to find her other socials: https://twitter.com/LemonLeafASMR';
+        response = 'Check out lemonleaf @ www.twitch.tv/lemonleaf + Check out her twiiter to find her other socials: https://twitter.com/LemonLeafASMR';
         break;
     case 'vtubertalk':
-        response = 'Vtuber Talk interviews Vtubers every week! He\'s super excited to be talking with Aria tonight! <3 Check them out  @ http://twitch.tv/VtuberTalk + Check out his twitter to find her other socials: www.twitch.tv/lemonleaf';
+        response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ http://twitch.tv/VtuberTalk + Check out his twitter to find his other socials: https://twitter.com/VtuberTalk';
+        break;
+    case 'friends':
+    response = 'Here are a list of friends currently added: ' + friendList.join(", ");
         break;
     default:
         response = 'Please go check out twitch.tv/'+tu+'! They were last streaming '+g+'! ♡';
