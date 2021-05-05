@@ -35,7 +35,7 @@ switch (q.toLowerCase()) {
         response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ http://twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
         break;
     case 'fallenshadow':
-        response = 'Check out fallenshadow @ www.twitch.tv/fallenshadowasmr + Check out their twitter to find their other socials: twitter.com/fallenshadow_YT';
+        response = 'Check out Fallenshadow @ www.twitch.tv/fallenshadowasmr + Check out their twitter to find their other socials: twitter.com/fallenshadow_YT';
         break;
     case 'friends':
     response = 'Here is a list of friends currently added: ' + friendList.join(", ");
