@@ -1,5 +1,5 @@
 var response = false;
-var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk'];
+var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk', 'fallenshadow'];
 switch (q.toLowerCase()) {
     case 'sero':
         response = 'The OG wife, the former IRL roommate, the one who dragged me into virtual hell. Give their all the love @ www.twitch.tv/serotina. Check out their carrd to find their other socials: serotina.carrd.co';
@@ -33,6 +33,9 @@ switch (q.toLowerCase()) {
         break;
     case 'vtubertalk':
         response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ http://twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
+        break;
+    case 'fallenshadow':
+        response = 'Check out fallenshadow @ www.twitch.tv/fallenshadowasmr + Check out their twitter to find their other socials: twitter.com/fallenshadow_YT';
         break;
     case 'friends':
     response = 'Here is a list of friends currently added: ' + friendList.join(", ");
