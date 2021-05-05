@@ -11,7 +11,7 @@ switch (q.toLowerCase()) {
         break;
     case 'zoom':
         response = 'Aria is currently using her H4n Pro Black, a mic from ZoomCorp. You can buy one from here: '+
-        '<insert link>';
+        'https://www.amazon.com/Zoom-H4n-Pro-All-Black/dp/B07WRDLNQZ/ref=sr_1_1';
         break;
     default:
         response = 'Did you forget to filter? Try !mic 3dio! Valid filters: ' + micList.join(", ");
