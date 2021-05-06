@@ -1,5 +1,6 @@
 var response = false;
 var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk', 'fallenshadow', 'sweetie'];
+var friendsListFull = ['serotina','the_arkhand', 'raintyqq', 'rheavt', 'rindouko', 'vividlyasmr', 'autotuneready', 'snugsbunasmr', 'bubblybunnana', 'lemonleaf','VtuberTalk','fallenshadowasmr','sweetieopaline'];
 switch (q.toLowerCase()) {
     case 'sero':
         response = 'The OG wife, the former IRL roommate, the one who dragged me into virtual hell. Give their all the love @ www.twitch.tv/serotina. Check out their carrd to find their other socials: serotina.carrd.co';
@@ -32,16 +33,19 @@ switch (q.toLowerCase()) {
         response = 'Check out Lemonleaf @ www.twitch.tv/lemonleaf + Check out their twiiter to find their other socials: https://twitter.com/LemonLeafASMR';
         break;
     case 'vtubertalk':
-        response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ http://twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
+        response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
         break;
     case 'fallenshadow':
         response = 'Check out Fallenshadow @ www.twitch.tv/fallenshadowasmr + Check out their twitter to find their other socials: twitter.com/fallenshadow_YT';
         break;
     case 'sweetie':
-    response = 'Check out SweetieOpaline @ www.twitch.tv/sweetieopaline';
-    break;
+        response = 'Check out SweetieOpaline @ www.twitch.tv/sweetieopaline';
+        break;
     case 'friends':
     response = 'Here is a list of friends currently added: ' + friendList.join(", ");
+        break;
+    case 'friends-full':
+    response = 'Here is a list of friends currently added: ' + friendsListFull.join(", ");
         break;
     default:
         response = 'Please go check out twitch.tv/'+tu+'! They were last streaming '+g+'! ♡';
