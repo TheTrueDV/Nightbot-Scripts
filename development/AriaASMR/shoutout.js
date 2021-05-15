@@ -1,12 +1,12 @@
 var response = false;
-var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk', 'fallenshadow', 'sweetie'];
-var friendsListFull = ['serotina','the_arkhand', 'raintyqq', 'rheavt', 'rindouko', 'vividlyasmr', 'autotuneready', 'snugsbunasmr', 'bubblybunnana', 'lemonleaf','VtuberTalk','fallenshadowasmr','sweetieopaline'];
+var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk', 'fallenshadow', 'sweetie', 'goji'];
+var friendsListFull = ['serotina','the_arkhand', 'raintyqq', 'rheavt', 'rindouko', 'vividlyasmr', 'autotuneready', 'snugsbunasmr', 'bubblybunnana', 'lemonleaf','VtuberTalk','fallenshadowasmr','sweetieopaline', 'gojiwolfberry'];
 switch (q.toLowerCase()) {
     case 'sero':
         response = 'The OG wife, the former IRL roommate, the one who dragged me into virtual hell. Give their all the love @ www.twitch.tv/serotina. Check out their carrd to find their other socials: serotina.carrd.co';
         break;
     case 'arkhand':
-        response = 'Check out arkhand @ www.twitch.tv/the_arkhand + Check out their linktr to find all their socials: https://linktr.ee/arkhand';
+        response = 'Check out arkhand @ www.twitch.tv/the_arkhand + Check out their linktr to find all their socials: linktr.ee/arkhand';
         break;
     case 'rainty':
         response = 'The only sane former roommate, artist, gamer. Rainty is in pre-debut so please send them all the love and support @ www.twitch.tv/raintyqq + Check out their twitter to find their other socials: twitter.com/raintyQQ';
@@ -30,16 +30,19 @@ switch (q.toLowerCase()) {
         response = 'Check out Bubbly @ www.twitch.tv/bubblybunnana + Check out their twitter to find their other socials: twitter.com/BubblyBunnana';
         break;
     case 'lemonleaf':
-        response = 'Check out Lemonleaf @ www.twitch.tv/lemonleaf + Check out their twiiter to find their other socials: https://twitter.com/LemonLeafASMR';
+        response = 'Check out Lemonleaf @ www.twitch.tv/lemonleaf + Check out their twiiter to find their other socials: twitter.com/LemonLeafASMR';
         break;
     case 'vtubertalk':
-        response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
+        response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ twitch.tv/VtuberTalk + Check out their twitter to find their other socials: twitter.com/VtuberTalk';
         break;
     case 'fallenshadow':
         response = 'Check out Fallenshadow @ www.twitch.tv/fallenshadowasmr + Check out their twitter to find their other socials: twitter.com/fallenshadow_YT';
         break;
     case 'sweetie':
         response = 'Check out SweetieOpaline @ www.twitch.tv/sweetieopaline';
+        break;
+    case 'goji':
+        response = 'Check out Goji @ www.twitch.tv/gojiwolfberry + Check out their twitter as well: twitter.com/GojiWolfberry';
         break;
     case 'friends':
     response = 'Here is a list of friends currently added: ' + friendList.join(", ");
