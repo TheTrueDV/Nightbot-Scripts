@@ -33,7 +33,7 @@ switch (q.toLowerCase()) {
         response = 'Check out Lemonleaf @ www.twitch.tv/lemonleaf + Check out their twiiter to find their other socials: https://twitter.com/LemonLeafASMR';
         break;
     case 'vtubertalk':
-        response = 'Vtuber Talk interviews Vtubers every week! Check them out  @ twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
+        response = 'Vtuber Talk interviews Vtubers every week! Check them out @ twitch.tv/VtuberTalk + Check out their twitter to find their other socials: https://twitter.com/VtuberTalk';
         break;
     case 'fallenshadow':
         response = 'Check out Fallenshadow @ www.twitch.tv/fallenshadowasmr + Check out their twitter to find their other socials: twitter.com/fallenshadow_YT';
@@ -44,6 +44,10 @@ switch (q.toLowerCase()) {
     case 'goji':
         response = 'Check out Goji @ www.twitch.tv/gojiwolfberry + Check out their twitter as well: twitter.com/GojiWolfberry';
         break;
+    case 'xiao':
+        response = 'Check out Xiao @ www.twitch.tv/xiaolu___ + Check out their carrd to find their other socials: https://xiaolu.carrd.co/';
+        break;
+    
     case 'friends':
     response = 'Here is a list of friends currently added: ' + friendList.join(", ");
         break;
