@@ -1,6 +1,6 @@
 var response = false;
-var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk', 'fallenshadow', 'sweetie', 'goji'];
-var friendsListFull = ['serotina','the_arkhand', 'raintyqq', 'rheavt', 'rindouko', 'vividlyasmr', 'autotuneready', 'snugsbunasmr', 'bubblybunnana', 'lemonleaf','VtuberTalk','fallenshadowasmr','sweetieopaline', 'gojiwolfberry'];
+var friendList = ['sero', 'arkhand', 'rainty', 'rhea', 'rin', 'vivi', 'aru', 'snugsbun', 'bubbly', 'lemonleaf', 'vtubertalk', 'fallenshadow', 'sweetie', 'goji', 'xiao'];
+var friendsListFull = ['serotina','the_arkhand', 'raintyqq', 'rheavt', 'rindouko', 'vividlyasmr', 'autotuneready', 'snugsbunasmr', 'bubblybunnana', 'lemonleaf','VtuberTalk','fallenshadowasmr','sweetieopaline', 'gojiwolfberry', 'xiaolu___'];
 switch (q.toLowerCase()) {
     case 'sero':
         response = 'The OG wife, the former IRL roommate, the one who dragged me into virtual hell. Give their all the love @ www.twitch.tv/serotina. Check out their carrd to find their other socials: serotina.carrd.co';
