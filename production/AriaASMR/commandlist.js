@@ -1,4 +1,4 @@
 var response = false;
-var creditList = ['!Credits', '!Disruption', '!Mics', '!Quotes', '!so'];
+var commandList = ['!credits', '!disruption', '!mics', '!quotes', '!so'];
 
-response = 'The custom commands DV has implemented so far are: ' + creditList.join(", ") + '. Try "!commands" for the rest.';
+response = 'The custom commands DV has implemented so far are: ' + commandList.join(", ") + '. Try "!commands" for the rest.';
